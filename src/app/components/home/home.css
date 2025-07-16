@@ -1,0 +1,18 @@
+.sticky-sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+#proyectos,
+#tecno-herrmainetas,
+#idiomas-habilidades {
+  scroll-margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .sticky-sidebar {
+    position: relative;
+    top: auto;
+    height: auto;
+  }
+}

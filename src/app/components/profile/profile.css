@@ -1,0 +1,14 @@
+.slider {
+  height: 100vh;
+  overflow-y: auto;
+}
+address p {
+  margin: 0.2em 0;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: auto;
+    overflow: visible;
+  }
+}
